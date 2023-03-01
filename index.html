@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Roboto:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="syntex.css" />
+    <title>Çağla Aslantaş // Kişisel web sayfası</title>
+  </head>
+  <body>
+    <nav class="Navbar">
+      <div class="animatıon-top">
+        <div class="top tp1"></div>
+        <div class="top tp2"></div>
+        <div class="top tp3"></div>
+        <div class="top tp4"></div>
+        <div class="top tp5"></div>
+        <div class="top tp6"></div>
+      </div>
+      <div class="container">
+        <ul class="nav-item">
+          <li id="home">
+            <a href="#home">Anasayfa</a>
+          </li>
+          <li>
+            <a href="#about">Hakkımda</a>
+          </li>
+          <li>
+            <a href="#course">Kurslarım</a>
+          </li>
+          <li>
+            <a href="#courseDetails">Kurs Detaylarım</a>
+          </li>
+          <li>
+            <a href="#contact">İletişim</a>
+          </li>
+        </ul>
+
+        <div class="container-1">
+          <img
+            src="image\cagla.jpg"
+            alt=" profil resmim "
+            width="300px;"
+            height="400px;"
+          />
+        </div>
+      </div>
+      <div class="container-2">
+        <p>ÇAĞLA ASLANTAŞ</p>
+        <p>FRONTEND DEVELOPER</p>
+      </div>
+    </nav>
+
+    <section class="about-box" id="about">
+      <div class="about-box1">
+        <h1>HAKKIMDA</h1>
+        <p>
+          Merhaba, ismim Çağla.SAÜ Sağlık Bilimleri Fakültesi Hemşirelik bölümü
+          mezunuyum.6 yıldır hemşirelik yapıyorum. Kendimi geliştirmem ve yeni
+          teknolojiye ayak uydurmam gerektiğini düşündüğüm için Fronted
+          developer hakkında araştırmalar yaptım ve bu süreçte benim aslında
+          yazılıma yatkın olduğumu bişeyler ortaya koydukça bunun bana zevk
+          verdiğini gördüm.
+        </p>
+      </div>
+      <div class="about-box2">
+        <h2>YETENEKLER</h2>
+
+        <p class="mb-0">HTML:</p>
+        <div class="progress mb-2">
+          <div
+            class="progress-bar progress-bar-striped bg-success"
+            style="width: 85%"
+          >
+            85%
+          </div>
+        </div>
+        <p class="mb-0">CSS:</p>
+        <div class="progress mb-2">
+          <div
+            class="progress-bar progress-bar-striped bg-info"
+            style="width: 85%"
+          >
+            85%
+          </div>
+        </div>
+        <p class="mb-0">BOOTSTRAP5 :</p>
+        <div class="progress mb-2">
+          <div
+            class="progress-bar progress-bar-striped bg-danger"
+            style="width: 80%"
+          >
+            80%
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="course">
+      <h3>KURSLARIM</h3>
+      <p>
+        2023 tarihinde başladığım Bilgeadam ve udemy sitesinden eğitim alıyorum
+      </p>
+      <div class="course-container">
+        <div class="course-1">
+          <img
+            src="image\bilgeadam-20200512085334.jpg"
+            alt="bilgeadam akademi"
+            width="400px;"
+          />
+        </div>
+        <div class="course-2">
+          <img
+            src="image\images.jpg"
+            alt="udemy"
+            width="400px;"
+            height="200px;"
+          />
+        </div>
+      </div>
+    </section>
+
+    <hr />
+    <section class="course-about" id="courseDetails">
+      <h3>KURS DETAYLARI</h3>
+
+      <div class="course-container">
+        <div class="course-1">
+          <img
+            src="image\bilgeadam-20200512085334.jpg"
+            alt="bilgeadam akademi"
+            width="400px;"
+          />
+          <p>
+            14.01.2023 tarihinde bilgeadam akademide Frontend Kursuna
+            başladım.Murat Akdağ tarafından eğitim veriliyor.5.hafta bitti Html5
+            ve Css eğitimi bitti.6.hafta javascript tarafına başladık.
+          </p>
+          <br />
+          <a href="#courseDetails">Devamını oku...</a>
+        </div>
+        <div class="course-2">
+          <img src="image\images.jpg" alt="udemy" width="300px;" />
+          <p>
+            07.12.2022 tarihinde www.udemy.com.tr sitesinden full Frontend
+            developer içeren eğitim paketini Can BOZ tarafından anlatılan kursun
+            Html ve Css Bölümlerini bitirdim,javascript bölümüne başladım
+          </p>
+          <br />
+          <a href="#courseDetails">Devamını oku...</a>
+        </div>
+      </div>
+    </section>
+    <hr />
+
+    <section id="contact">
+      <div class="contact-box1">
+        <h4>İLETİŞİM</h4>
+      </div>
+      <div class="contact-box2">
+        <form>
+          <label>AD SOYAD</label>
+          <input type="text" required />
+
+          <label>EMAİL</label>
+          <input type="email" required />
+
+          <label>KONU</label>
+          <input type="text" />
+
+          <label>MESAJIN</label>
+          <textarea
+            type="text"
+            cols="100"
+            rows="5"
+            placeholder="Lütfen yazınız..."
+            required
+          ></textarea>
+
+          <button>GÖNDER</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer-container">
+      <div class="ıconlar">
+        <a href="https://tr-tr.facebook.com/">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/5968/5968764.png"
+            alt="facebook"
+            width="30px"
+          />
+        </a>
+      </div>
+      <div class="ıconlar">
+        <a href="https://twitter.com/">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/733/733579.png"
+            alt="twitter"
+            width="30px"
+          />
+        </a>
+      </div>
+      <div class="ıconlar">
+        <a href="https://www.instagram.com/?hl=tr">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/4138/4138124.png"
+            alt="ınstgram"
+            width="30px"
+          />
+        </a>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
